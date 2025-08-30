@@ -73,6 +73,25 @@
         background: #096b35;
         transform: scale(1.05);
     }
+       
+        /* 📱 موبايل */
+    @media (max-width: 768px) {
+      .grid {
+        grid-template-columns: repeat(2,1fr);
+      }
+      .Mobile img {
+        height: 120px;
+      }
+    }
+          /* 📱 شاشات أصغر (موبايل صغير) */
+    @media (max-width: 480px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+      .Mobile img {
+        height: 200px;
+      }
+    }
         
     </style>
     
@@ -122,3 +141,4 @@
 
 
 </html>
+
